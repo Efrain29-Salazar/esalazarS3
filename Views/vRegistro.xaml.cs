@@ -19,8 +19,8 @@ public partial class vRegistro : ContentPage
 
 		catch (Exception ex)
 		{
-
-		}
+            DisplayAlertAsync("Error", ex.Message, "Cerrar");
+        }
 
     }
 }
