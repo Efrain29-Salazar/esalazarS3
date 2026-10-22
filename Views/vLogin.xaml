@@ -61,14 +61,14 @@
                    IsPassword="True"
                    Grid.Row="1" Grid.Column="1"/>
 
-            <!-- Estilo global (viene de App.xaml) -->
+            <!-- Estilo global  -->
             <Button x:Name="btnIniciarSesion"
                     Text="Iniciar Sesión"
                     Style="{StaticResource GlobalBotones}"
                     Clicked="btnIniciarSesion_Clicked"
                     Grid.Row="2" Grid.Column="0"/>
 
-            <!-- Estilo explícito (definido en esta página) -->
+            <!-- Estilo explícito -->
             <Button x:Name="btnRegistrar"
                     Text="Registrar Usuario"
                     Style="{StaticResource EstiloButton}"
